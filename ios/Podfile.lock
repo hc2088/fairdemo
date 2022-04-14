@@ -1,0 +1,28 @@
+PODS:
+  - fair (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - url_launcher (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - fair (from `.symlinks/plugins/fair/ios`)
+  - Flutter (from `Flutter`)
+  - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
+
+EXTERNAL SOURCES:
+  fair:
+    :path: ".symlinks/plugins/fair/ios"
+  Flutter:
+    :path: Flutter
+  url_launcher:
+    :path: ".symlinks/plugins/url_launcher/ios"
+
+SPEC CHECKSUMS:
+  fair: a2ad8650ee4df9e6bcc51426213b3a3561dbacb8
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  url_launcher: 6fef411d543ceb26efce54b05a0a40bfd74cbbef
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.11.2

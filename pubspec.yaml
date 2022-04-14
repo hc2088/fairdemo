@@ -1,0 +1,39 @@
+name: fairdemo
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  #允许不开启nullsafety
+  sdk: ">=2.10.4 <3.0.0"
+  #2.12.0以上，所有依赖package必须要升级nullsafety
+#  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  fair:
+    path: ../fair/fair
+
+
+dependency_overrides:
+
+  fair_version:
+    path: ../fair/flutter_version/flutter_2_0_6
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.4.0
+  fair_compiler:
+    path: ../fair/compiler
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/bundle/

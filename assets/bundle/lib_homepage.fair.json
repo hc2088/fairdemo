@@ -1,0 +1,18 @@
+{
+  "className": "Container",
+  "na": {
+    "color": "#(Colors.red)",
+    "child": {
+      "className": "Center",
+      "na": {
+        "child": {
+          "className": "Text",
+          "pa": [
+            "hello fair"
+          ]
+        }
+      }
+    }
+  },
+  "methodMap": {}
+}

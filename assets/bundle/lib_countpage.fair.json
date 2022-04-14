@@ -1,0 +1,44 @@
+{
+  "className": "Scaffold",
+  "na": {
+    "body": {
+      "className": "Center",
+      "na": {
+        "child": {
+          "className": "Column",
+          "na": {
+            "mainAxisAlignment": "#(MainAxisAlignment.center)",
+            "children": [
+              {
+                "className": "Text",
+                "pa": [
+                  "You have pushed the button this many times:"
+                ]
+              },
+              {
+                "className": "Text",
+                "pa": [
+                  "#($_counter)"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "floatingActionButton": {
+      "className": "FloatingActionButton",
+      "na": {
+        "onPressed": "@(_incrementCounter)",
+        "tooltip": "Increment",
+        "child": {
+          "className": "Icon",
+          "pa": [
+            "#(Icons.add)"
+          ]
+        }
+      }
+    }
+  },
+  "methodMap": {}
+}
