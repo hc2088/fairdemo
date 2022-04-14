@@ -2,7 +2,7 @@ import 'package:fair/fair.dart';
 
 import 'package:flutter/material.dart';
 
-import 'myappfair.dart';
+import 'myapp.dart';
 
 void main() {
   // runApp(MyApp());
@@ -17,5 +17,5 @@ void main() {
 dynamic _getApp() => FairApp(
       modules: {},
       delegate: {},
-      child: MyAppFair(),
+      child: MyApp(),
     );

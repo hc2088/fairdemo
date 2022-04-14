@@ -13,9 +13,9 @@ class ListPage extends StatelessWidget {
         child: ListView(
           children: [
             getListTile(context, '/'),
+            getListTile(context, '/lib_simplepage'),
             getListTile(context, '/lib_countpage'),
-            getListTile(context, '/lib_homepage'),
-            getListTile(context, '/ifqualboolpage'),
+            getListTile(context, '/lib_IfEqualBoolPage'),
           ],
         ),
       ),

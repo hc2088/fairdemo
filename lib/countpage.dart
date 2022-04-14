@@ -1,34 +1,17 @@
 import 'package:fair/fair.dart';
 import 'package:flutter/material.dart';
 
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
-      home: MyHomePage(
-        title: 'Flutter Demo Home Page',
-        // data: {'title': '1222'},
-      ),
-    );
-  }
-}
-
 @FairPatch()
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+class CountPage extends StatefulWidget {
+  CountPage({Key key, this.title}) : super(key: key);
   final String title;
   dynamic data;
 
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _CountPageState createState() => _CountPageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _CountPageState extends State<CountPage> {
   @FairProps()
   var fairProps;
 
@@ -56,9 +39,9 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: AppBar(
-      //   title: Text(_title),
-      // ),
+      appBar: AppBar(
+        title: Text(_title),
+      ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
