@@ -2,8 +2,8 @@ import 'package:fair/fair.dart';
 import 'package:flutter/material.dart';
 
 @FairPatch()
-class simplepage extends StatelessWidget {
-  const simplepage({Key key}) : super(key: key);
+class SimplePage extends StatelessWidget {
+  const SimplePage({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

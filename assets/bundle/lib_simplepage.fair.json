@@ -1,7 +1,7 @@
 {
   "className": "Container",
   "na": {
-    "color": "#(Colors.red)",
+    "color": "#(Colors.white)",
     "child": {
       "className": "Center",
       "na": {
@@ -9,7 +9,16 @@
           "className": "Text",
           "pa": [
             "hello fair"
-          ]
+          ],
+          "na": {
+            "style": {
+              "className": "TextStyle",
+              "na": {
+                "fontSize": 30,
+                "color": "#(Colors.black)"
+              }
+            }
+          }
         }
       }
     }
